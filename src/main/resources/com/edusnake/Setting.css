@@ -1,0 +1,33 @@
+.button{
+ 
+    -fx-background-color: #6691ff; 
+    -fx-border: none;
+    -fx-background-radius: 15 ;
+    -fx-color: white;
+    -fx-pref-width: 400;
+    -fx-pref-height: 60;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-font: 30px MrRobot; 
+}
+
+.button:hover{
+    -fx-background-color: #66a8ff;
+    -fx-background-radius: 10 ;
+}
+
+.button:pressed{
+    -fx-pref-width: 380;
+    -fx-pref-height: 55;
+}
+
+.root{
+    -fx-background-image: url("CSSImages/background.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: AUTO;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+    -fx-spacing: 50;
+    -fx-padding: 50; 
+}
